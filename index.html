@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Miraizen – The School of Business & Analytics. A premium learning ecosystem for business thinkers, analysts, and problem solvers. Launching soon." />
+  <meta name="keywords" content="business analytics, data analytics, BI, Tableau, learning, Miraizen" />
+  <meta property="og:title" content="Miraizen – The School of Business & Analytics" />
+  <meta property="og:description" content="Pursuing Insights. Creating Impact. Coming Soon." />
+  <meta property="og:type" content="website" />
+  <title>Miraizen – The School of Business & Analytics</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ── Animated Canvas Background ── -->
+  <canvas id="constellation" aria-hidden="true"></canvas>
+
+  <!-- ── Noise texture overlay ── -->
+  <div class="noise" aria-hidden="true"></div>
+
+  <!-- ── Main wrapper ── -->
+  <main class="wrapper">
+
+    <!-- ══ HERO ══ -->
+    <section class="hero" id="hero">
+      <div class="hero__inner" id="heroInner">
+
+        <!-- ─────────────────────────────────────────────────────
+             LOGO — Replace placeholder below with official logo.
+             Preferred:  <img src="logo.svg" alt="Miraizen" class="logo-img" />
+             Also works: <img src="logo.png" alt="Miraizen" class="logo-img" />
+             Target width: 220–260px. The .logo-img class handles sizing.
+             Delete the entire <div class="logo-mark"> block when replacing.
+        ──────────────────────────────────────────────────────── -->
+        <div class="logo-block" data-parallax="0.04">
+  <img src="image (1).png" alt="Miraizen – The School of Business & Analytics" class="logo-img" />
+</div>
+
+        <!-- Eyebrow -->
+        <p class="eyebrow" data-parallax="0.02">Something extraordinary is being built</p>
+
+        <!-- Headline -->
+        <h1 class="headline" data-parallax="0.015">
+          <span class="headline__line">Website</span>
+          <span class="headline__line headline__line--gold">Coming Soon...</span>
+        </h1>
+
+        <!-- Sub -->
+        <p class="subheadline" data-parallax="0.01">
+          The future of Business &amp; Analytics learning is almost here.<br/>
+          <em>We don't just teach tools. We teach people how to think.</em>
+        </p>
+
+        <!-- Tagline -->
+<p class="tagline" data-parallax="0.008"><em>Pursuing Insights. Creating Impact.</em></p>
+      </div>
+    </section>
+
+    <!-- ══ SOCIAL ══ -->
+    <!-- <section class="social-section" aria-label="Follow Miraizen on social media"
+      <p class="social-prelude">Be the first to witness the beginning of Miraizen.</p> -->
+      <h2 class="social-title">Follow Our Journey</h2>
+      <div class="social-cards"> 
+
+        <!-- YouTube -->
+        <a class="social-card" href="https://www.youtube.com/channel/UCXhBM4AUBcE1b83y_GqxiPw" target="_blank" rel="noopener noreferrer" aria-label="Miraizen on YouTube">
+          <div class="social-card__icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <rect x="4" y="11" width="40" height="26" rx="7" fill="#FF0000" opacity="0.92"/>
+              <path d="M20 17.5 L32 24 L20 30.5 Z" fill="#FFFFFF"/>
+            </svg>
+          </div>
+          <span class="social-card__name">YouTube</span>
+          <span class="social-card__handle">@Miraizen</span>
+        </a>
+
+        <!-- X / Twitter -->
+        <a class="social-card" href="https://x.com/miraizenhq" target="_blank" rel="noopener noreferrer" aria-label="Miraizen on X">
+          <div class="social-card__icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <rect width="48" height="48" rx="10" fill="#000000"/>
+              <path d="M26.37 22.18 L35.6 11H33.3L25.35 20.72 19.12 11H11L20.68 25.34 11 37H13.3L21.7 26.72 28.3 37H36.4L26.37 22.18ZM22.84 25.46 21.77 23.9 14.12 12.77H18.04L23.8 21.28 24.87 22.84 33.32 35.33H29.4L22.84 25.46Z" fill="white"/>
+            </svg>
+          </div>
+          <span class="social-card__name">X</span>
+          <span class="social-card__handle">@Miraizen</span>
+        </a>
+
+        <!-- LinkedIn -->
+        <a class="social-card" href="https://www.linkedin.com/company/miraizen-the-school-of-business-and-anlaytics/about/?viewAsMember=true" target="_blank" rel="noopener noreferrer" aria-label="Miraizen on LinkedIn">
+          <div class="social-card__icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <rect width="48" height="48" rx="8" fill="#0A66C2"/>
+              <rect x="11" y="19" width="7" height="20" fill="white"/>
+              <circle cx="14.5" cy="13.5" r="4" fill="white"/>
+              <path d="M26 27.5C26 25 27.5 23 30 23C32.5 23 34 24.5 34 27.5V39H41V26C41 20.5 37.5 18 33 18C29.5 18 27.5 20 26 22V19H19V39H26V27.5Z" fill="white"/>
+            </svg>
+          </div>
+          <span class="social-card__name">LinkedIn</span>
+          <span class="social-card__handle">Miraizen</span>
+        </a>
+
+        <!-- Instagram -->
+        <a class="social-card" href="https://www.instagram.com/miraizenhq/" target="_blank" rel="noopener noreferrer" aria-label="Miraizen on Instagram">
+          <div class="social-card__icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <defs>
+                <radialGradient id="ig-grad" cx="30%" cy="107%" r="150%">
+                  <stop offset="0%" stop-color="#fdf497"/>
+                  <stop offset="20%" stop-color="#fd5949"/>
+                  <stop offset="55%" stop-color="#d6249f"/>
+                  <stop offset="100%" stop-color="#285AEB"/>
+                </radialGradient>
+              </defs>
+              <rect width="48" height="48" rx="10" fill="url(#ig-grad)"/>
+              <rect x="11" y="11" width="26" height="26" rx="7" stroke="white" stroke-width="2.5" fill="none"/>
+              <circle cx="24" cy="24" r="7" stroke="white" stroke-width="2.5" fill="none"/>
+              <circle cx="35" cy="13" r="2" fill="white"/>
+            </svg>
+          </div>
+          <span class="social-card__name">Instagram</span>
+          <span class="social-card__handle">@miraizen</span>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- ══ FOOTER ══ -->
+    <footer class="footer" role="contentinfo">
+      <div class="footer__logo">
+  <img src="image (1).png" alt="Miraizen" class="footer__logo-img" />
+</div>
+      <p class="footer__launch">Launching Soon</p>
+      <p class="footer__copy">&copy; 2026 Miraizen. All rights reserved.</p>
+    </footer>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
